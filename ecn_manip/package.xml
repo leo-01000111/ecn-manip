@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ecn_manip</name>
+  <version>2.0.0</version>
+  <description>Package to learn about kinematic modeling</description>
+
+  <maintainer email="olivier.kermorgant@ec-nantes.fr">Olivier Kermorgant</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>urdf</depend>
+  <depend>urdfdom_headers</depend>
+
+  <export>
+       <build_type>ament_cmake</build_type>
+  </export>
+</package>
