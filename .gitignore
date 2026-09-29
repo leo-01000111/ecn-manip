@@ -1,0 +1,37 @@
+cat > .gitignore << 'EOF'
+# ROS build outputs (catkin / colcon)
+build/
+devel/
+install/
+log/
+logs/
+.catkin_tools/
+.catkin_workspace
+
+# C++ build artifacts
+*.o
+*.a
+*.so
+*.out
+*.exe
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# ROS recordings (usually huge)
+*.bag
+*.db3
+*.mcap
+
+# Editor / OS clutter
+.vscode/
+.idea/
+*.swp
+.DS_Store
+EOF
